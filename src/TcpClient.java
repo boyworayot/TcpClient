@@ -16,8 +16,9 @@ public class TcpClient {
 
     public TcpClient() {
         try {
+            //
             //step 1 open port
-            s = new Socket("192.168.100.27",8888);//ขอ port 8888 ของ localhost
+            s = new Socket("127.0.0.1",8888);//ขอ port 8888 ของ localhost
 
           
             //step 2 create input and output
